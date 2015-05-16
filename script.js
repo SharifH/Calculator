@@ -100,5 +100,5 @@ function toggleClass(element, className){
 }
 
 document.getElementById('#dark').addEventListener('click', function() {
-    toggleClass(document.getElementById('#calculator'), 'YOUR-CLASS');
+    toggleClass(document.getElementById('#calculator'), '.dark');
 });
